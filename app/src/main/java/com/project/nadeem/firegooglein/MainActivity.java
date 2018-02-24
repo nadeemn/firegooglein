@@ -28,6 +28,8 @@ import com.google.firebase.auth.GoogleAuthProvider;
 
 public class MainActivity extends AppCompatActivity {
 
+    int i=0;
+
     SignInButton button;
     FirebaseAuth mAuth;
     private final static int RC_SIGN_IN = 2;
